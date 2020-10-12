@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+
+ body{
+     margin-top:30px;
+     font-size:18px;
+ }
+
+label{
+    display:inline-block;
+}
+
+
+
+form{
+    width:300px;
+    margin:0 auto;
+    padding:10px;
+}
+
+.fila{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    margin: 1em 1.5em 1em;
+}
+
+.titulo{
+    margin: 0 auto ; 
+    text-align:center;
+}
+
+#boton{
+  
+    padding:0px 1rem;
+    
+}
+
+.fila2 {
+    margin: 1em 1.5em 1em;
+}
+
+#alerta{
+    color:green;
+    font-weight:bold;
+    text-align:center;
+}
